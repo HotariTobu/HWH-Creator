@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWH Creator", "HWH Creator\HWH Creator.csproj", "{25BFF74A-5F78-44FE-A28B-6F5D996408C6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedWinforms", "..\SharedWinforms\SharedWinforms.shproj", "{F8BEB2C7-34E5-427F-BD27-A9C385AC1563}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedCSharp", "..\SharedCSharp\SharedCSharp.shproj", "{91884F8B-8DD5-4B4F-AC88-9983D3094671}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\SharedCSharp\SharedCSharp.projitems*{25bff74a-5f78-44fe-a28b-6f5d996408c6}*SharedItemsImports = 4
+		..\SharedWinforms\SharedWinforms.projitems*{25bff74a-5f78-44fe-a28b-6f5d996408c6}*SharedItemsImports = 4
+		..\SharedCSharp\SharedCSharp.projitems*{91884f8b-8dd5-4b4f-ac88-9983d3094671}*SharedItemsImports = 13
+		..\SharedWinforms\SharedWinforms.projitems*{f8beb2c7-34e5-427f-bd27-a9c385ac1563}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25BFF74A-5F78-44FE-A28B-6F5D996408C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BFF74A-5F78-44FE-A28B-6F5D996408C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BFF74A-5F78-44FE-A28B-6F5D996408C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BFF74A-5F78-44FE-A28B-6F5D996408C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86E27621-E0AD-42A2-9941-C1DCAB4378F8}
+	EndGlobalSection
+EndGlobal
