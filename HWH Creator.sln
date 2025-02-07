@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HWH Creator", "HWH Creator\
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedWinforms", "..\SharedWinforms\SharedWinforms.shproj", "{F8BEB2C7-34E5-427F-BD27-A9C385AC1563}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedCSharp", "..\SharedCSharp\SharedCSharp.shproj", "{91884F8B-8DD5-4B4F-AC88-9983D3094671}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedCSharp", "..\SharedCSharp\src\SharedCSharp.shproj", "{91884F8B-8DD5-4B4F-AC88-9983D3094671}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\SharedCSharp\SharedCSharp.projitems*{25bff74a-5f78-44fe-a28b-6f5d996408c6}*SharedItemsImports = 4
+		..\SharedCSharp\src\SharedCSharp.projitems*{25bff74a-5f78-44fe-a28b-6f5d996408c6}*SharedItemsImports = 4
 		..\SharedWinforms\SharedWinforms.projitems*{25bff74a-5f78-44fe-a28b-6f5d996408c6}*SharedItemsImports = 4
-		..\SharedCSharp\SharedCSharp.projitems*{91884f8b-8dd5-4b4f-ac88-9983d3094671}*SharedItemsImports = 13
+		..\SharedCSharp\src\SharedCSharp.projitems*{91884f8b-8dd5-4b4f-ac88-9983d3094671}*SharedItemsImports = 13
 		..\SharedWinforms\SharedWinforms.projitems*{f8beb2c7-34e5-427f-bd27-a9c385ac1563}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
